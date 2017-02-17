@@ -3,10 +3,10 @@
   padding: 0;
 }
 body{
-  background-image: url("images/background.PNG");
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
+    background-image: -webkit-linear-gradient( top, #000, gray);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 900px;
 }
 header{
   background: ;
@@ -53,11 +53,18 @@ nav ul li a{
   border-radius: 10px;
 }*/
 .main{
+  color: white;
   width:75%;
   height: auto;
   background:;
   padding: 2em;
   margin: 0 auto;
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 900px
 }
 h1{
   text-align: center;
