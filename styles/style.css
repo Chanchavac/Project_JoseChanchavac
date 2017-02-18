@@ -9,7 +9,6 @@ body{
     height: 900px;*/
 }
 .main{
-  /*color: white;*/
   width:75%;
   height: 900px;
   padding: 20px;
@@ -60,6 +59,7 @@ nav ul li a{
   text-decoration: none;
   background: ;
   color: ;
+  overflow: hidden;
   border-right: px solid ;
   border-left: px solid ;
 }
