@@ -3,10 +3,11 @@
   padding: 0;
 }
 body{
-    /*background-image: -webkit-linear-gradient( top, #2088B5, #000);
+    /*background-image: -webkit-linear-gradient( top, #006ea5, #000);
+    background-image: linear-gradient( top, #006ea5, #000);
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 900px;*/
+    background-attachment: fixed;*/
+    height: 900px;
 }
 .main{
   width:75%;
@@ -17,31 +18,33 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: cover;*/
-  height: 900px;
+  background-size: cover;
   border-left: 5px solid white;
-  border-right: 5px solid white;
+  border-right: 5px solid white;*/
 }
 header{
-  background: ;
   width:100%;
   height:150px;
-  border: px solid ;
-  border-bottom: px solid ;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  /*background: -webkit-radial-gradient(#54ceff, #00aef3, #0087bb, #04567b, #023c56);
+  background: radial-gradient(#54ceff, #00aef3, #0087bb, #04567b, #023c56);
+  border: 1px solid white;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;*/
 }
 .header{
   text-align: center;
   float:;
   padding:;
   padding-right: ;
+  color: ;
 }
 nav{
   padding: 0;
   width: 100%;
   height: 40px;
-  border: px solid ;
+  /*border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  border-left: 1px solid white;*/
 }
 nav ul{
 list-style-type: none;
@@ -57,20 +60,22 @@ nav ul li a{
   padding-top: ;
   text-align: center;
   text-decoration: none;
-  background: ;
-  color: ;
+  /*background: #00060D;
+  color: white;
   overflow: hidden;
-  border-right: px solid ;
-  border-left: px solid ;
+  border-right: 1px solid white;
+  border-left: 1px solid white;*/
 }
-nav ul li a:hover {
-    background-color: ;
-    color: ;
+/*nav ul li a:hover {
+    background: -webkit-radial-gradient(#54ceff, #00aef3, #0087bb);
+    background: radial-gradient(#54ceff, #00aef3, #0087bb);
+    color: black;
 }
 .currentpage{
-  background-color: ;
-  color: ;
-}
+  background: -webkit-radial-gradient(#54ceff, #00aef3, #0087bb);
+  background: radial-gradient(#54ceff, #00aef3, #0087bb);
+  color: black;
+}*/
 h1{
   text-align: center;
 }
