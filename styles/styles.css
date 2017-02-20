@@ -34,7 +34,7 @@ header{
 .header{
   text-align: center;
   float:;
-  padding:;
+  line-height: ;
   padding-right: ;
   color: ;
 }
@@ -57,9 +57,9 @@ nav ul li{
 nav ul li a{
   display: block;
   height: 40px;
-  padding-top: ;
   text-align: center;
   text-decoration: none;
+  line-height: 40px;
   /*background: #00060D;
   color: white;
   overflow: hidden;
