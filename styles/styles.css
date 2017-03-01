@@ -150,6 +150,9 @@ nav ul li a:hover {
 h1{
   text-align: center;
 }
+.title{
+  color: white;
+}
 article{
   background-color: rgba(255, 255, 255, 0.5);
   width: 90%;
@@ -165,6 +168,10 @@ article div{
 }
 .aside{
   width:57.5%;
+}
+.regdiv{
+  width: 80%;
+  margin-left: 10%;
 }
 .left{
   margin-left: 0;
@@ -184,4 +191,16 @@ aside h1{
 }
 aside h2{
   text-align: center;
+}
+#location{
+  position: relative;
+  height: 275px;
+}
+#locationimg{
+  width: 40%;
+  height: 250px;
+  position: absolute;
+  left: 60%;
+  border-radius: 25px;
+  border-top: 2px solid black;
 }
