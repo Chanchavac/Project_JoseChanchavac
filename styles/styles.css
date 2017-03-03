@@ -20,6 +20,7 @@ body{
   background-size: cover;
   border-left: 5px solid white;
   border-right: 5px solid white;
+  padding-bottom: 40px;
 }
 header{
   width:100%;
@@ -158,11 +159,13 @@ article{
   width: 90%;
   margin-left: 5%;
   border-radius: 25px;
-  padding-top: 10px;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 article div{
   border-top: 2px solid black;
-  margin-top: 10px;
+  margin-top: 20px;
   width: 90%;
   margin-left: 5%;
 }
@@ -203,4 +206,23 @@ aside h2{
   left: 60%;
   border-radius: 25px;
   border-top: 2px solid black;
+}
+#aeries{
+  display: block;
+  width: 80%;
+  height: 150px;
+  margin-left: 10%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 25px;
+  background: url("../images/aeries1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#aeries:hover{
+  background: url("../images/aeries2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
