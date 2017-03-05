@@ -77,25 +77,49 @@
 .sportouter{
   width: 50%;
   height: 300px;
+  position: relative;
+}
+.clubsdiv{
+  width: 50%;
+  border-top: none;
 }
 .left{
   float: left;
-  border-right: 2px dashed black;
 }
 .right{
   margin-left: 50%;
 }
-#lastsport{
+.lastdiv{
   margin-left: 25%;
-}
-h2{
-  text-align: center;
 }
 .sportimg{
   width: 80%;
   height: 200px;
   margin-left: 10%;
   border-radius: 25px;
+  position: absolute;
+  top: 70px;
+}
+.sportname{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+h2.sportname{
+  top: 45px;
+}
+.season{
+  margin-top: 30px;
+}
+.sportlogo{
+  position: absolute;
+  height: 85px;
+  left: 30px;
+}
+#xclogo{
+  position: absolute;
+  height: 85px;
+  left: 10px;
 }
 @-webkit-keyframes crosscountry{
   0%{background: url("../images/xc1.png");
