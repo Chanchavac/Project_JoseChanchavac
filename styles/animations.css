@@ -77,6 +77,7 @@
 .sportouter{
   width: 50%;
   height: 300px;
+  border-top: none;
   position: relative;
 }
 .clubsdiv{
@@ -99,6 +100,7 @@
   border-radius: 25px;
   position: absolute;
   top: 70px;
+  box-shadow: 15px 15px 30px black;
 }
 .sportname{
   position: absolute;
@@ -110,6 +112,16 @@ h2.sportname{
 }
 .season{
   margin-top: 30px;
+  border-top: 2px solid black;
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 10px;
+}
+#firstseason{
+  border-top: 2px solid black;
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 10px;
 }
 .sportlogo{
   position: absolute;
