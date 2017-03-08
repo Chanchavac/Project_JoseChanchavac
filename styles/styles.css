@@ -6,23 +6,15 @@
   padding: 0;
 }
 body{
-    background-image: -webkit-linear-gradient( top, #006ea5, #000);
-    background-image: linear-gradient( top, #006ea5, #000);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     height: 900px;
     font-family: 'Andika';
-}
-.main{
-  width: 100%;
-  height: 900px;
-  margin: auto;
-  background-image: url("../images/background.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  padding-bottom: 40px;
+    width: 100%;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 40px;
 }
 header{
   width: 100%;
@@ -188,11 +180,10 @@ a{
   color: black;
 }
 aside ul{
-  width: 100%;
-  margin-left: 0%;
+  width: 90%;
+  margin-left: 10%;
   font-size: 1.35em;
   margin-top: 10px;
-  background: red
 }
 p{
   font-size: 1.35em;
@@ -205,6 +196,7 @@ p{
 .largep{
   width: 95%;
   padding: 2.5%;
+  margin-top: 30px;
 }
 .largep::first-letter {
     font-size: 2.25em;
