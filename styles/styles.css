@@ -14,7 +14,7 @@ body{
     font-family: 'Andika';
 }
 .main{
-  width: 90%;
+  width: 100%;
   height: 900px;
   margin: auto;
   background-image: url("../images/background.png");
@@ -22,13 +22,11 @@ body{
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  border-left: 5px solid white;
-  border-right: 5px solid white;
   padding-bottom: 40px;
 }
 header{
-  width:100%;
-  height:150px;
+  width: 100%;
+  height: 200px;
   background: -webkit-radial-gradient(#54ceff, #00aef3, #0087bb, #04567b, #023c56);
   background: radial-gradient(#54ceff, #00aef3, #0087bb, #04567b, #023c56);
   border-bottom: 1px solid white;
@@ -37,14 +35,14 @@ header{
 header img{
   position: absolute;
   z-index: 1;
-  height: 140px;
-  width: 150px;
+  height: 175px;
+  width: 185px;
 }
 #logo1{
-  left: 20%;
+  left: 18%;
 }
 #logo2{
-  right: 20%;
+  right: 18%;
 }
 .header{
   display: inline-block;
@@ -56,18 +54,18 @@ header img{
   font-family:  'Lora', serif;
   font-weight: lighter;
   color: white;
-  line-height: 160%;
+  line-height: 200%;
 }
 #headtop{
-  font-size: 1em;
+  font-size: 1.4em;
   text-shadow: 2px 2px black;
 }
 #headmid{
-  font-size: 2.25em;
+  font-size: 2.65em;
   text-shadow: 3px 3px black;
 }
 #headbot{
-  font-size: 0.75em;
+  font-size: 1.15em;
   text-shadow: 1px 1px black;
 }
 nav{
@@ -104,6 +102,12 @@ nav ul li a:hover {
     background: -webkit-radial-gradient(#54ceff, #00aef3, #0087bb);
     background: radial-gradient(#54ceff, #00aef3, #0087bb);
     color: black;
+}
+nav ul li a:active {
+    background: -webkit-radial-gradient(#54ceff, #00aef3, #0087bb);
+    background: radial-gradient(#54ceff, #00aef3, #0087bb);
+    color: white;
+    text-shadow: 2px 2px black;
 }
 .currentpage{
   background: -webkit-radial-gradient(#54ceff, #00aef3, #0087bb);
