@@ -14,7 +14,7 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 header{
   width: 100%;
@@ -23,12 +23,12 @@ header{
   background: radial-gradient(#54ceff, #00aef3, #0087bb, #04567b, #023c56);
   border-bottom: 1px solid white;
   position: relative;
+  overflow: hidden;
 }
 header img{
   position: absolute;
   z-index: 1;
-  height: 175px;
-  width: 185px;
+  height: 190px;
 }
 #logo1{
   left: 18%;
@@ -121,7 +121,7 @@ article{
   border-radius: 25px;
   margin-top: 30px;
   padding-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
 }
 .aside{
   width:57.5%;
@@ -150,6 +150,7 @@ aside{
   padding-top: 10px;
   padding-bottom: 10px;
   box-shadow: 10px 10px 20px black;
+  overflow: hidden;
 }
 article h1, h2{
   text-align: center;
@@ -180,8 +181,9 @@ a{
   color: black;
 }
 aside ul{
-  width: 90%;
-  margin-left: 10%;
+  width: 83%;
+  margin-left: 12%;
+  margin-right: 5%;
   font-size: 1.35em;
   margin-top: 10px;
 }
@@ -255,17 +257,35 @@ aside p{
   margin-left: 12.5%;
   height: 150px;
   border-bottom: 0px;
-  margin-top: 20px;
+  margin-top: 35px;
 }
 #smnav ul li{
   width: 15%;
-  height: 150px;
+  height: 175px;
   margin-right: 5%;
 }
 #smnav ul li a{
-  height: 150px;
+  height: 175px;
   border-right: 0px;
   border-left: 0px;
+  overflow: visible;
+  position: relative;
+}
+.smname{
+  background: gray;
+  position: absolute;
+  top: 155px;
+  width: 100%;
+  margin-left: 0;
+  height: 40px;
+  border-radius: 15px;
+  border-top: none;
+  border: 1px solid white;
+  display: none;
+}
+.smname h2{
+  color: white;
+  text-shadow: 1px 1px black;
 }
 #facebook{
   background: url("../images/facebook1.png");
@@ -279,6 +299,9 @@ aside p{
     background-position: center;
     background-size: cover;
 }
+#facebook:hover #smname1{
+  display: block;
+}
 #instagram{
   background: url("../images/instagram1.png");
   background-repeat: no-repeat;
@@ -290,6 +313,9 @@ aside p{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+#instagram:hover #smname2{
+  display: block;
 }
 #twitter{
   background: url("../images/twitter1.png");
@@ -303,6 +329,9 @@ aside p{
     background-position: center;
     background-size: cover;
 }
+#twitter:hover #smname3{
+  display: block;
+}
 #youtube{
   background: url("../images/youtube1.png");
   background-repeat: no-repeat;
@@ -315,14 +344,22 @@ aside p{
     background-position: center;
     background-size: cover;
 }
+#youtube:hover #smname4{
+  display: block;
+}
 #calendar{
   color: white;
-  text-shadow: 1px 1px black;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   text-decoration: underline;
 }
 #calendar:hover{
   color: black;
-  text-shadow: 1px 1px white;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+#h2aeries{
+  margin-top: -30px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 #aeries{
   display: block;
@@ -344,8 +381,8 @@ aside p{
   background-size: cover;
 }
 #aeries:hover h2{
-  color: white;
-  text-shadow: 1px 1px black;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 .shadow{
   box-shadow: 10px 10px 20px black;
